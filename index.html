@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+  <head>
+    <title>between us</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>
+  <body>
+  	<!-- audios -->
+    <audio
+      src="audio/nicolas.mp3"
+      preload="auto"
+      id="audio-one"
+    >
+	</audio>
+	<audio
+	src="audio/rocco.mp3"
+	preload="auto"
+	id="audio-two"
+  >
+  </audio>
+
+  <audio
+	src="audio/lilly.mp3"
+	preload="auto"
+	id="audio-three"
+  >
+  </audio>
+
+   <audio
+  src="audio/emma.mp3"
+  preload="auto"
+  id="audio-four"
+  >
+  </audio>
+
+   <audio
+  src="audio/fernanda.mp3"
+  preload="auto"
+  id="audio-five"
+  >
+  </audio>
+
+   <audio
+  src="audio/malin.mp3"
+  preload="auto"
+  id="audio-six"
+  >
+  </audio>
+
+   <audio
+  src="audio/piyush.mp3"
+  preload="auto"
+  id="audio-seven"
+  >
+  </audio>
+
+   <audio
+  src="audio/olivia.mp3"
+  preload="auto"
+  id="audio-eight"
+  >
+  </audio>
+
+   <audio
+  src="audio/zahra.mp3"
+  preload="auto"
+  id="audio-nine"
+  >
+  </audio>
+
+  <!-- overlay to bypass Chrome audioplay -->
+  <div class="overlay">
+  	<h1>between us</h1>
+  </div>
+
+  	<!-- I added the text within the sections; this way you can 1. center the text within the section dynamically (line 75 in CSS file) and 2. select the corresponding text in Javascript according to the parent section rather than add an id to every text (line 22 in JS) -->
+
+	<section id="one"> <!-- the section id corresponds to the audio id. In Javascript, I selected the current section id (for example here: one), and selected the corresponding audio id (here: audio-one), line 19 in Javascript -->
+        <p class="text">
+        	<em> Me: </em>... Yeah, my brother's gay
+        	<br><em> Her: </em> And how do you feel about that?
+        	<br><em> Me: </em>...Okay, I guess...
+        </p>
+        <img src="img/nicolasclosed.png" />
+        <img src="img/nicolasopen.png" class="hidden" />
+	</section>
+
+	<section id="two">
+        <p class="text">
+          <em>We were 15 or 16</em>
+        	<em> Him: </em> Do you want to come to pride day parade with us?
+        	<br><em> Me: </em> I don't know because I'm cis, I'm white, I'm male... Aren't you the same?
+        	<br><em> Him: </em> Me, I'm not cis, I'm actually transgender
+        </p>
+        <img src="img/roccoclosed.png" />
+        <img src="img/roccoopen.png" class="hidden" />
+	</section>
+
+	<section id="three">
+        <p class="text">
+        	<em> Me: </em>What are your thoughts on this elementary school being built so far from our most recent development?
+        	<br><em> Him: </em> I’m sorry I keep on staring at you but I just can’t help it. I know you’ve seen me staring but you look so much like my daughter. So beautiful. Blonde and blue eyes, just beautiful 
+        	<br><em> Him to the other girl in the room: </em>Not that you aren’t beautiful it’s just that I can’t stop staring at her. 
+        </p>
+        <img src="img/lillyclosed.png" />
+        <img src="img/lillyopen.png" class="hidden" />
+	</section>
+
+  <section id="four">
+        <p class="text">
+          <em> Me: </em>(Walks into his room in a colorful outfit)
+          <br><em> Him: </em> Can you stop being so gay for once?
+        </p>
+        <img src="img/emmaclosed.png" />
+        <img src="img/emmaopen.png" class="hidden" />
+  </section>
+
+  <section id="five">
+        <p class="text">
+          <em> Them: </em> <em>Latina?</em> You're just white
+          <br><em> Me: </em> ...
+        </p>
+        <img src="img/fernandaclosed.png" />
+        <img src="img/fernandaopen.png" class="hidden" />
+  </section>
+
+  <section id="six">
+        <p class="text">
+          <em> Them: </em> Who're you talking about again?
+          <br><em> Me: </em> My friend, whos uhh... he has... well, a disability
+        </p>
+        <img src="img/malinclosed.png" />
+        <img src="img/malinopen.png" class="hidden" />
+  </section>
+
+  <section id="seven">
+        <p class="text">
+          <br><em> Later, the manager and I chatted briefly</em>
+          <br><em> Me: </em> I blame it on my covid mask and how nervous it makes me. The worst thing about the damn thing is that I can't help but smell my own bad breath (in an attempt at some self-deprecating humour)
+          <br><em> Him: </em>That's actually the best thing about it. We no longer have to smell yours!
+        </p>
+        <img src="img/piyushclosed.png" />
+        <img src="img/piyushopen.png" class="hidden" />
+  </section>
+
+  <section id="eight">
+        <p class="text">
+          <em> Her: </em> I don't know about this event you're talking about. Are you sure it's really happening?
+          <br><em> Me: </em> (Who has lived it, it's happening outside my house) ...
+        </p>
+        <img src="img/mouthclosed.png" />
+        <img src="img/mouthopen.png" class="hidden" />
+  </section>
+
+  <section id="nine">
+        <p class="text">
+          <em> Her: </em> Oh, no way, you're from <em>there?</em> I'm surprised you guys even speak english there
+          <br><em> Me: </em> Yeah, colonial legacy, unfortunately
+        </p>
+        <img src="img/mouthclosed.png" />
+        <img src="img/mouthopen.png" class="hidden" />
+  </section>
+
+  </body>
+
+</html>
