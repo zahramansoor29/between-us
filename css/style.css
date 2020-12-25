@@ -124,3 +124,30 @@ section#nine {
   left: 70vw;
 }
 
+/*tablet*/
+@media screen and (max-width: 1024px) {
+ section { 
+  }
+ p.text {
+    font-size: 20pt;
+  }
+  h1 {
+    text-align: center;
+  }
+}
+
+/*mobiles*/
+@media screen and (max-width: 768px) {
+  section { 
+    margin-top: 0 !important;
+    left: 0vw !important; 
+    width: 100vw;
+  }
+  p.text {
+    text-align: center;
+    font-size: 12pt;
+  }
+ h1 {
+    text-align: center;
+ }
+}
